@@ -24,6 +24,7 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color: var(--color-1);
 }
 
 ul {
@@ -39,4 +40,10 @@ a {
 img {
   width: 100%;
   display: block;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
 }
