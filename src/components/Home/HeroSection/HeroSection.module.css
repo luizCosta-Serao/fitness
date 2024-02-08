@@ -1,0 +1,126 @@
+.hero {
+  position: relative;
+  max-width: 1250px;
+}
+
+.content h1 {
+  color: var(--color-5);
+  font-size: var(--hero-header);
+  margin-bottom: 0;
+}
+
+.content p {
+  color: var(--color-5);
+  opacity: .6;
+  font-size: var(--body-txt);
+  max-width: 560px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.content button {
+  margin-bottom: 112px;
+}
+
+.featured {
+  margin-bottom: 5rem;
+}
+
+.featured span {
+  display: block;
+  color: var(--color-5);
+  opacity: .6;
+  margin-bottom: 2rem;
+}
+
+.featuredImg {
+  display: flex;
+  gap: 1rem;
+}
+
+.ilustrativeImgs {
+  background-image: url('../../../assets/hero_person.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  max-width: 1250px;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 6rem;
+  right: 0;
+}
+
+.km img {
+  width: 180px;
+  position: absolute;
+  right: 0;
+  top: -6rem;
+}
+
+.videos img {
+  width: 193px;
+  position: absolute;
+  right: 0;
+  bottom: 10rem;
+}
+
+.tutorial img {
+  width: 206px;
+  position: absolute;
+  bottom: 15rem;
+  right: 20rem;
+}
+
+@media (max-width: 1250px) {
+  .ilustrativeImgs {
+    z-index: -1;
+    opacity: .3;
+  }
+  /*
+  .ilustrativeImgs {
+    position: relative;
+  }
+
+  .km img {
+    top: -4rem;
+  }
+  
+  .tutorial img {
+    left: 1rem;
+  }
+  */
+}
+
+@media (max-width: 1050px) {
+  .content h1 {
+    font-size: calc(var(--hero-header) - 2rem);
+  }
+}
+
+@media (max-width: 876px) {
+  .content h1 {
+    font-size: calc(var(--hero-header) - 4rem);
+  }
+}
+
+@media (max-width: 678px) {
+  .content h1 {
+    font-size: calc(var(--hero-header) - 6rem);
+  }
+
+  .featuredImg {
+    flex-wrap: wrap;
+  }
+
+  .ilustrativeImgs {
+    opacity: .1;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .content h1 {
+    font-size: calc(var(--hero-header) - 7rem);
+  }
+}
