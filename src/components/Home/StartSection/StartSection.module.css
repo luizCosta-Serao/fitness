@@ -1,0 +1,23 @@
+.start {
+  margin-top: 200px;
+}
+
+.title {
+  font-size: var(--h2);
+  color: var(--color-5);
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  font-size: var(--body-txt);
+  color: var(--color-5);
+  opacity: .6;
+  margin-bottom: 3rem;
+}
+
+.listStart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
