@@ -77,19 +77,6 @@
     z-index: -1;
     opacity: .3;
   }
-  /*
-  .ilustrativeImgs {
-    position: relative;
-  }
-
-  .km img {
-    top: -4rem;
-  }
-  
-  .tutorial img {
-    left: 1rem;
-  }
-  */
 }
 
 @media (max-width: 1050px) {
