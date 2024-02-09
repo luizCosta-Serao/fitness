@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: end;
+}
+
+.btnFooter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-5);
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 160px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btnFooter:hover {
+  background-color: var(--color-3);
+  color: var(--color-5);
+}
+
+.btnFooter img {
+  max-width: 30px;
+}
