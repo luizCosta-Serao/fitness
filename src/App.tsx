@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Footer from './components/Footer'
 import Programs from './pages/Programs'
 import HealthyLiving from './pages/HealthyLiving'
+import Community from './pages/Community'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/programs' element={<Programs />} />
             <Route path='/healthy' element={<HealthyLiving />} />
+            <Route path='/community' element={<Community />} />
           </Routes>
           <Footer />
         </div>
