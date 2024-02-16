@@ -1,5 +1,6 @@
+import Button from '../../Global/Button'
 import styles from './BannerHealthy.module.css'
-import Button from '../Global/Button'
+
 
 const BannerHealthy = () => {
   return (
