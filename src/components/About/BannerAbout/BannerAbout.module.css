@@ -5,13 +5,13 @@
   background-position: center top;
   max-width: 900px;
   width: 80%;
-  height: 750px;
+  height: 1100px;
   border-radius: 4rem 0 0 4rem;
   position: absolute;
   top: 150px;
   right: 0;
   z-index: -1;
-  opacity: .8;
+  opacity: .5;
 }
 
 .content h1 {
