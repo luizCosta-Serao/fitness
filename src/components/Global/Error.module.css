@@ -1,0 +1,5 @@
+.error {
+  color: var(--color-3);
+  font-weight: 600;
+  font-size: var(--body-txt);
+}
