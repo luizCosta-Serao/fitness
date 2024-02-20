@@ -1,0 +1,70 @@
+.imgStore {
+  background-image: url('../../../assets/banner_store.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  max-width: 1000px;
+  width: 80%;
+  height: 550px;
+  border-radius: 4rem 0 0 4rem;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  z-index: -1;
+  opacity: .5;
+}
+
+.content h1 {
+  color: var(--color-5);
+  font-size: var(--hero-header);
+  margin-bottom: 0;
+}
+
+.content p {
+  color: var(--color-5);
+  opacity: .6;
+  font-size: var(--body-txt);
+  max-width: 560px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.content button {
+  margin-bottom: 112px;
+}
+
+@media (max-width: 900px) {
+  .content h1 {
+    font-size: calc(var(--hero-header) - 1rem);
+  }
+}
+
+@media (max-width: 700px) {
+  .imgStore {
+    height: 450px;
+  }
+
+  .content h1 {
+    font-size: calc(var(--hero-header) - 2.5rem);
+  }
+}
+
+@media (max-width: 550px) {
+  .imgStore {
+    height: 400px;
+  }
+
+  .content h1 {
+    font-size: calc(var(--hero-header) - 5rem);
+  }
+}
+
+@media (max-width: 440px) {
+  .imgStore {
+    height: 350px;
+  }
+
+  .content h1 {
+    font-size: calc(var(--hero-header) - 7rem);
+  }
+}

@@ -8,6 +8,7 @@ import Programs from './pages/Programs'
 import HealthyLiving from './pages/HealthyLiving'
 import Community from './pages/Community'
 import About from './pages/About'
+import Store from './pages/Store'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path='/healthy' element={<HealthyLiving />} />
             <Route path='/community' element={<Community />} />
             <Route path='/about' element={<About />} />
+            <Route path='/store' element={<Store />} />
           </Routes>
           <Footer />
         </div>
