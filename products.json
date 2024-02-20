@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "img": "./src/assets/product_1.png",
+    "title": "Whey Protein",
+    "price": "$ 59.59"
+  },
+  {
+    "id": 2,
+    "img": "./src/assets/product_2.png",
+    "title": "Protein Bar",
+    "price": "$ 4.99"
+  },
+  {
+    "id": 3,
+    "img": "./src/assets/product_3.png",
+    "title": "Protein Bar",
+    "price": "$ 2.99"
+  },
+  {
+    "id": 4,
+    "img": "./src/assets/product_4.png",
+    "title": "Protein Ice Cream",
+    "price": "$ 7.99"
+  },
+  {
+    "id": 5,
+    "img": "./src/assets/product_5.png",
+    "title": "Protein Yogurt",
+    "price": "$ 7.99"
+  },
+  {
+    "id": 6,
+    "img": "./src/assets/product_6.png",
+    "title": "Gym Shoes",
+    "price": "$ 89.99"
+  },
+  {
+    "id": 7,
+    "img": "./src/assets/product_7.png",
+    "title": "Gym Shoes",
+    "price": "$ 130.99"
+  },
+  {
+    "id": 8,
+    "img": "./src/assets/product_8.png",
+    "title": "Workout Kit",
+    "price": "$ 190.99"
+  },
+  {
+    "id": 9,
+    "img": "./src/assets/product_9.png",
+    "title": "Aerobic Training Kit",
+    "price": "$ 160.99"
+  },
+  {
+    "id": 10,
+    "img": "./src/assets/product_10.png",
+    "title": "halter",
+    "price": "$ 30.99"
+  },
+  {
+    "id": 11,
+    "img": "./src/assets/product_11.png",
+    "title": "Bluetooth Headset",
+    "price": "$ 20.99"
+  },
+  {
+    "id": 12,
+    "img": "./src/assets/product_12.png",
+    "title": "Headset",
+    "price": "$ 14.99"
+  },
+  {
+    "id": 13,
+    "img": "./src/assets/product_13.png",
+    "title": "Thermos 1L",
+    "price": "$ 9.99"
+  },
+  {
+    "id": 14,
+    "img": "./src/assets/product_14.png",
+    "title": "Thermos 2L",
+    "price": "$ 18.99"
+  },
+  {
+    "id": 15,
+    "img": "./src/assets/product_15.png",
+    "title": "Rope for Exercise",
+    "price": "$ 8.99"
+  }
+]
