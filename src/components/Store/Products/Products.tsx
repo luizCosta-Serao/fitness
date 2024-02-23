@@ -21,7 +21,7 @@ const Products = () => {
       try {
         setLoading(true)
         setError(null)
-        const response = await fetch('../../../../products.json')
+        const response = await fetch('/products.json')
         const json = await response.json()
         setProductsStore(json)
       } catch (error) {
