@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "img": "../src/assets/product_2.png",
+    "img": "https://th.bing.com/th?q=Barra+Proteica+Bold&w=138&h=138&c=7&o=5&dpr=1.6&pid=1.7&mkt=pt-BR&cc=BR&setlang=pt-br&adlt=moderate",
     "title": "Protein Bar",
     "price": "$ 4.99"
   },
