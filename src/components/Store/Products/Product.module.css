@@ -6,6 +6,10 @@
   border-radius: 2rem;
 }
 
+.imgProduct {
+  border-radius: 2rem;
+}
+
 .titleProduct {
   color: var(--color-5);
   opacity: .8;
